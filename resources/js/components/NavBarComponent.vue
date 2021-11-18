@@ -12,7 +12,7 @@
                 <button type="submit" class="bg-gray-200 rounded p-1 mt-2 shadow">Valider</button>
             </form>
         </div>-->
-        <div class="flex flex-row-reverse">
+        <div class="flex flex-row-reverse mt-2 ml-2">
 
             <button @click="deployed = !deployed" class="z-10">
                 <img src="https://picsum.photos/200/200"
@@ -21,7 +21,7 @@
 
 
             <transition name="slide-fade">
-                <div v-show="deployed" class="bg-primary w-auto h-18 pl-6 pr-24 absolute rounded-full shadow-lg">
+                <div v-show="deployed" class="bg-primary w-auto h-18 pl-6 pr-24 absolute rounded-full shadow">
 
                     <ul class="flex gap-x-2 h-full items-center">
                         <li>
@@ -70,7 +70,7 @@ export default {
     name: "navbar-component",
     data() {
         return {
-            deployed: true,
+            deployed: false,
         }
     }
 }

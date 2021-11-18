@@ -2217,7 +2217,7 @@ __webpack_require__.r(__webpack_exports__);
   name: "navbar-component",
   data: function data() {
     return {
-      deployed: true
+      deployed: false
     };
   }
 });
@@ -2296,7 +2296,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* Les animations d'entrée (« enter ») et de sortie (« leave »)  */\r\n/* peuvent utiliser différentes fonctions de durée et de temps.  */\n.slide-fade-enter-active {\r\n    transition: all .3s ease;\n}\n.slide-fade-leave-active {\r\n    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);\n}\n.slide-fade-enter, .slide-fade-leave-to\r\n    /* .slide-fade-leave-active below version 2.1.8 */\r\n{\r\n    transform: translateX(10px);\r\n    opacity: 0;\n}\r\n\r\n/*-------------------------- */\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Les animations d'entrée (« enter ») et de sortie (« leave »)  */\n/* peuvent utiliser différentes fonctions de durée et de temps.  */\n.slide-fade-enter-active {\n    transition: all .3s ease;\n}\n.slide-fade-leave-active {\n    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);\n}\n.slide-fade-enter, .slide-fade-leave-to\n    /* .slide-fade-leave-active below version 2.1.8 */\n{\n    transform: translateX(10px);\n    opacity: 0;\n}\n\n/*-------------------------- */\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20513,7 +20513,7 @@ var render = function () {
   return _c("div", [
     _c(
       "div",
-      { staticClass: "flex flex-row-reverse" },
+      { staticClass: "flex flex-row-reverse mt-2 ml-2" },
       [
         _c(
           "button",
@@ -20547,7 +20547,7 @@ var render = function () {
                 },
               ],
               staticClass:
-                "bg-primary w-auto h-18 pl-6 pr-24 absolute rounded-full shadow-lg",
+                "bg-primary w-auto h-18 pl-6 pr-24 absolute rounded-full shadow",
             },
             [
               _c("ul", { staticClass: "flex gap-x-2 h-full items-center" }, [
